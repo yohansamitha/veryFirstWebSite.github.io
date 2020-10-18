@@ -49,6 +49,16 @@ section:after {
     clear: both;
 }
 
+aside{
+    float: right;
+    border: 1px solid black;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+    background-color: dimgray;
+
+}
+
 @media (max-width: 600px) {
     nav, article {
         width: 100%;
