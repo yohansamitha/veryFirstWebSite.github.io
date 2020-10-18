@@ -3,10 +3,6 @@
 //     document.getElementById("myHeader").innerHTML = "Have a nice day!";
 // }
 // </script>
-
-
-
-
 function btnOnLogin() {
 
     let userName = document.getElementById("txtUserName").value;
@@ -15,7 +11,6 @@ function btnOnLogin() {
     if (b){
     // if (userName === "admin" && passWord === "1234") {
         console.log("user Name Success");
-        // window.open("http://google.com");
         window.open(location.href = "main/MainForm.html")
         // document.getElementById("testingTag").innerHTML = "HI HI HI";
     } else {
